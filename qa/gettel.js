@@ -1,0 +1,1 @@
+javascript:(function() {var arr = document.getElementsByName("phRadio1");var val = 0;for(var i = 0; i < arr.length; i++) {if(arr[i].checked) {val = arr[i].value;}}var ind = val.indexOf(':'); var ph = val.substring(ind + 1); alert(ph)})();
